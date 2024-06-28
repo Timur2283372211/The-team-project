@@ -21,7 +21,7 @@
     justify-content: space-between;
 }
 
-.logo-chocolate{
+.logo-chocolate {
     position: absolute;
     margin: 0 0 0 200px;
 }
@@ -43,7 +43,7 @@
     letter-spacing: -0.28px;
 }
 
-.nav-program{
+.nav-program {
     display: flex;
     list-style-type: none;
     gap: 24px;
@@ -150,3 +150,28 @@
     font-weight: 600;
 }
 
+@media screen (max-width: 767px; ) {
+    .container (width: 375px;
+    )
+}
+
+.offer-banner {
+    display: flex;
+    width: 210px;
+    height: 13px;
+    gap: 13px;
+}
+
+.ellipse-orange {
+    width: 28px;
+    height: 13px;
+    background: #FD9222;
+    border-radius: 7px;
+}
+
+.ellipse {
+    width: 13px;
+    height: 13px;
+    background: #545454;
+    border-radius: 100%;
+}
