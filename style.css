@@ -242,8 +242,9 @@
 }
 
 .ouah {
+    margin: 400px 0 0 0;
     width: 94px;
-    height: 33px;
+    height: 40px;
     padding: 8px 20px 8px 20px;
     gap: 14px;
     border-radius: 100px;
@@ -283,4 +284,28 @@
     border: 1px 0px 0px 0px;
     font-family: Montserrat;
     font-weight: 500;
+}
+
+.ora {
+    margin: 20px -75px 0 0;
+    width: 230px;
+    height: 201px;
+}
+
+.pur {
+    margin: 20px -175px 0 0;
+    width: 230px;
+    height: 201px;
+}
+
+.blu {
+    margin: 20px -75px 0 0;
+    width: 230px;
+    height: 201px;
+}
+
+.yel {
+    margin: 20px -75px 0 0;
+    width: 230px;
+    height: 201px;
 }
