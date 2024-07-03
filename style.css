@@ -49,6 +49,10 @@
     gap: 24px;
 }
 
+.nav-icon {
+    display: none;
+}
+
 .main {
     display: flex;
     justify-content: center;
@@ -148,12 +152,6 @@
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 600;
-}
-
-@media screen (max-width: 767px; ) {
-    .container {
-        width: 375px;
-    }
 }
 
 .main2 {
@@ -329,7 +327,7 @@
     font-weight: 400;
     line-height: 14px;
     letter-spacing: -0.02em;
-    text-align: left;    
+    text-align: left;
 }
 
 .ye {
@@ -340,7 +338,7 @@
     font-weight: 400;
     line-height: 14px;
     letter-spacing: -0.02em;
-    text-align: left;    
+    text-align: left;
 }
 
 .bl {
@@ -351,10 +349,10 @@
     font-weight: 400;
     line-height: 14px;
     letter-spacing: -0.02em;
-    text-align: left;    
+    text-align: left;
 }
 
-.or{
+.or {
     position: absolute;
     margin: 270px 0 0 0;
     font-family: Montserrat;
@@ -373,7 +371,7 @@
     font-weight: 600;
     line-height: 24px;
     letter-spacing: -0.02em;
-    text-align: left;    
+    text-align: left;
 }
 
 .p {
@@ -384,7 +382,7 @@
     font-weight: 600;
     line-height: 24px;
     letter-spacing: -0.02em;
-    text-align: left;    
+    text-align: left;
 }
 
 .b {
@@ -395,7 +393,7 @@
     font-weight: 600;
     line-height: 24px;
     letter-spacing: -0.02em;
-    text-align: left;    
+    text-align: left;
 }
 
 .y {
@@ -406,5 +404,61 @@
     font-weight: 600;
     line-height: 24px;
     letter-spacing: -0.02em;
-    text-align: left;    
+    text-align: left;
+}
+
+.burger-menu {
+    position: absolute;
+    margin: 0 0 0 450px;
+    background: #1E1823;
+    width: 290px;
+    height: 1024px;
+    list-style-type: none;
+}
+
+.burger-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.28px;
+}
+
+.x {
+    position: absolute;
+    margin: 20px 0 0 240px;
+    width: 32px;
+    height: 32px;
+}
+
+@media screen and (max-width: 1199px) {
+    .container {
+        width: 768px;
+    }
+
+    .header {
+        width: 704px;
+        background: gold;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .nav-program {
+        display: none;
+    }
+
+    .nav-icon {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 375px;
+    }
 }
