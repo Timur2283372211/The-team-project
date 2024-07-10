@@ -16,6 +16,7 @@
 }
 
 .header {
+    position: relative;
     padding: 50px;
     display: flex;
     justify-content: space-between;
@@ -47,6 +48,17 @@
     display: flex;
     list-style-type: none;
     gap: 24px;
+}
+
+.nav-program a {
+    color: #111;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.28px;
 }
 
 .nav-icon {
@@ -414,6 +426,7 @@
     width: 290px;
     height: 1024px;
     list-style-type: none;
+    z-index: 1000;
 }
 
 .burger-menu a {
@@ -458,6 +471,87 @@
 }
 
 @media screen and (max-width: 767px) {
+    .container {
+        width: 375px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 435px;
+    }
+
+    .header {
+        width: 335px;
+        height: 28px;
+        background: rgb(0, 255, 55);
+    }
+
+    .our-products {
+        width: 375px;
+    }
+
+    .box-products {
+        width: 375px;
+    }
+
+    .buy-now {
+        width: 335px;
+    }
+
+    .gray-line {
+        display: none;
+    }
+
+    .main-text {
+        width: 299px;
+        height: 72px;
+    }
+
+    .button-How {
+        width: 159px;
+        height: 41px;
+    }
+
+    .button-buy-now {
+        width: 120px;
+        height: 41px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .yellow-chocolate {
+        display: none;
+    }
+
+    .blue-chocolate {
+        display: none;
+    }
+
+    .purple-chocolate {
+        display: none;
+    }
+
+    .orange-chocolate {
+        margin: 0 0 0 50px;
+    }
+
+    .offer-banner {
+        margin: 20px 0 0 80px;
+    }
+
+    .nav-program {
+        display: none;
+    }
+
+    .nav-icon {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 374px) {
     .container {
         width: 375px;
     }
