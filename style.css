@@ -427,6 +427,7 @@
     height: 1024px;
     list-style-type: none;
     z-index: 1000;
+    display: none;
 }
 
 .burger-menu a {
@@ -438,6 +439,7 @@
     font-weight: 500;
     line-height: 16px;
     letter-spacing: -0.28px;
+    display: none;
 }
 
 .x {
@@ -445,6 +447,7 @@
     margin: 20px 0 0 240px;
     width: 32px;
     height: 32px;
+    display: none;
 }
 
 @media screen and (max-width: 1199px) {
@@ -454,10 +457,58 @@
 
     .header {
         width: 704px;
-        background: gold;
+    }
+
+    .box-products{
+        margin-left: 138px;
+    }
+
+    .zavesa{
+        margin: -10px 0 0 741px;
+        position: absolute;
+        width: 200px;
+        height: 400px;
+        background: #fefefe;
+        z-index: 100;
+    }
+
+    .main-text {
+        position: absolute;
+        margin-top: 300px;
+        margin-left: -20px;
+    }
+
+    .button-How {
+        margin-top: 500px;
+        margin-left: 170px;
+        width: 151px;
+        height: 41px;
+    }
+
+    .button-buy-now {
+        margin-top: 500px;
+        margin-left: 30px;
+        width: 120px;
+        height: 41px;
+    }
+
+    .offer-banner {
+        margin: 50px 0 0 370px;
+    }
+
+    .scroll-down-logo{
+    margin: 510px 0 0 640px;
+    }
+
+    .scroll-down-text{
+    margin: 510px 0 0 550px;
     }
 
     .navbar {
+        display: none;
+    }
+
+    .gray-line {
         display: none;
     }
 
@@ -465,9 +516,18 @@
         display: none;
     }
 
+    .buy-now {
+        width: 704px;
+    }
+
     .nav-icon {
         display: block;
     }
+
+    .yellow-chocolate {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -484,11 +544,18 @@
     .header {
         width: 335px;
         height: 28px;
-        background: rgb(0, 255, 55);
     }
 
     .our-products {
         width: 375px;
+    }
+
+    .scroll-down-logo{
+    margin: 550px 0 0 100px;
+    }
+
+    .scroll-down-text{
+    margin: 560px 0 0 15px;
     }
 
     .box-products {
@@ -504,16 +571,23 @@
     }
 
     .main-text {
+        position: absolute;
+        margin-top: 270px;
+        margin-left: -20px;
         width: 299px;
         height: 72px;
     }
 
     .button-How {
-        width: 159px;
+        margin-top: 500px;
+        margin-left: 170px;
+        width: 151px;
         height: 41px;
     }
 
     .button-buy-now {
+        margin-top: 500px;
+        margin-left: 30px;
         width: 120px;
         height: 41px;
     }
