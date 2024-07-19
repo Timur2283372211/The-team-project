@@ -169,7 +169,7 @@
 .main2 {
     display: flex;
     justify-content: center;
-    background: #b9b9b9;
+    background: #ffffff;
     height: 600px;
     width: 100%;
     border-radius: 20px;
@@ -254,7 +254,7 @@
 .ouah {
     position: absolute;
     margin: 300px 10px 0 0;
-    width: 94px;
+    width: 95px;
     height: 33px;
     padding: 8px 20px 8px 20px;
     gap: 14px;
@@ -267,7 +267,7 @@
 .puah {
     position: absolute;
     margin: 300px 10px 0 0;
-    width: 94px;
+    width: 95px;
     height: 33px;
     padding: 8px 20px 8px 20px;
     gap: 14px;
@@ -280,7 +280,7 @@
 .buah {
     position: absolute;
     margin: 300px 10px 0 0;
-    width: 94px;
+    width: 95px;
     height: 33px;
     padding: 8px 20px 8px 20px;
     gap: 14px;
@@ -293,7 +293,7 @@
 .yuah {
     position: absolute;
     margin: 300px 10px 0 0;
-    width: 94px;
+    width: 95px;
     height: 33px;
     padding: 8px 20px 8px 20px;
     gap: 14px;
@@ -478,6 +478,14 @@
         margin-left: -20px;
     }
 
+    .bl{
+        margin-left: 50px;
+    }
+
+    .b{
+        left: px;
+    }
+
     .button-How {
         margin-top: 500px;
         margin-left: 170px;
@@ -501,7 +509,7 @@
     }
 
     .scroll-down-text{
-    margin: 510px 0 0 550px;
+    margin: 520px 0 0 550px;
     }
 
     .navbar {
@@ -571,11 +579,11 @@
     }
 
     .main-text {
-        position: absolute;
-        margin-top: 270px;
+        margin-top: 360px;
         margin-left: -20px;
-        width: 299px;
-        height: 72px;
+        padding: 25px;
+        font-size: 19px;
+        line-height: 24px;
     }
 
     .button-How {
